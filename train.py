@@ -4,6 +4,8 @@ Usage:
     $ python path/to/train.py --data coco128.yaml --weights yolov5s.pt --img 640
 """
 
+# python train.py --img 640 --batch 2 --epochs 1 --data data/yaml/kangaroo.yaml --weights weights/yolov5s.pt --hyp data/hyps/hyp.scratch.yaml --name "kangaroo_test"
+
 import argparse
 import logging
 import os
